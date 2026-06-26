@@ -1,0 +1,10 @@
+#summetion of numbers until 0 is the input:
+x=int(input("Enter a number:"))
+total=0
+if x==0:
+    print("Total:",x)
+else:
+    while x!=0:
+        total=total+x
+        x=int(input("Enter a number:"))   
+    print("Total:",total)
