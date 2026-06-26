@@ -1,1 +1,14 @@
-
+functions: square,cube,larger,average
+def square(x):
+  print(x*x)
+def cube(x):
+  print(x*x*x)
+def larger(a,b):
+  if a>b:
+    print ("The larger number is:",a)
+  elif b>a:
+    print("The larger number is:",b)
+  else:
+    print("Both numbers are equal")
+def average(a,b,c):
+  print("The average will be:",(a+b+c)/3)
