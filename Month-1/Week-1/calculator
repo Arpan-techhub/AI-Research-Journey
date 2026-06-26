@@ -1,0 +1,15 @@
+#Calculator
+def calculate (a,b,o):
+  a=float(input("Enter the first number:"))
+  b=float(input("Enter the second number:"))
+  o=str(input("Enter the operator:"))
+  if o=='+':
+    print("The addition is:",a+b)
+  elif o=='-':
+    print("The substraction is:",a-b)
+  elif o=='/':
+    print("The division is:",a/b)
+  elif o=='*':
+    print("The multiplication is",a*b)
+  else :
+    print("Error")
