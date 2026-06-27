@@ -1,0 +1,14 @@
+# program to take information of 5 students and make a dictionary
+  i=0
+students=[]
+while i<5:
+    a=input("Enter your name:")
+    b=int(input("Enter your age"))
+    c=input("Enter your city:")
+    student={}
+    student["Name"]=a
+    student["Age"]=b
+    student["City"]=c
+    students.append(student)
+    i=i+1
+print(students)
