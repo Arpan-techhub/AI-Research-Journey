@@ -1,0 +1,15 @@
+sentence=input("Enter any sentence:")
+
+# Number of characters
+print("Number of characters:",len(sentence))
+
+# Number of words
+words= sentence.split()
+print("Number of words:",len(words))
+
+# Uppercase
+print("Uppercase:",sentence.upper())
+
+# Lowercase
+print("Lowercase:",sentence.lower())
+
